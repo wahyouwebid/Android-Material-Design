@@ -1,0 +1,51 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="10dp">
+       <ImageView
+           android:id="@+id/icon"
+           android:layout_width="60dp"
+           android:layout_marginRight="10dp"
+           android:layout_height="60dp"
+           android:src="@drawable/flat"/>
+        <TextView
+
+            android:id="@+id/Judul"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/icon"
+            android:text="Ujang Wahyu"
+            />
+
+        <TextView
+
+            android:id="@+id/deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Judul"
+            android:layout_toRightOf="@id/icon"
+            android:text="Kamu apa sekarang ?"
+            />
+
+        <View
+            android:id="@+id/vw_divider"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/icon"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
