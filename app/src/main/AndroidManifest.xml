@@ -29,10 +29,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Settings"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
-
 </manifest>
